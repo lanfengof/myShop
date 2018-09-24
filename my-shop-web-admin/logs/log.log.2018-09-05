@@ -1,0 +1,9 @@
+2018-09-05 23:54:13,064 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-09-05 23:54:13,279 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-09-05 23:54:13,323 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-09-05 23:54:13,375 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 05 23:54:13 CST 2018]; root of context hierarchy
+2018-09-05 23:54:14,161 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-09-05 23:54:14,492 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-09-05 23:54:14,515 INFO [org.springframework.jdbc.support.SQLErrorCodesFactory] - SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2018-09-05 23:54:14,527 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 05 23:54:13 CST 2018]; root of context hierarchy
+2018-09-05 23:54:14,530 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed

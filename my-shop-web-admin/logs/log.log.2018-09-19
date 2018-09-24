@@ -1,0 +1,100 @@
+2018-09-19 00:06:07,909 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@3b938003: startup date [Tue Sep 18 23:51:48 CST 2018]; root of context hierarchy
+2018-09-19 00:06:07,914 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-09-19 00:07:02,156 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-09-19 00:07:02,326 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-09-19 00:07:02,354 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-09-19 00:07:02,371 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 00:07:02 CST 2018]; root of context hierarchy
+2018-09-19 00:07:03,057 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-09-19 00:07:03,314 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 00:07:02 CST 2018]; root of context hierarchy
+2018-09-19 00:07:03,317 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-09-19 00:09:23,525 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-09-19 00:09:23,701 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-09-19 00:09:23,727 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-09-19 00:09:23,744 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 00:09:23 CST 2018]; root of context hierarchy
+2018-09-19 00:09:24,452 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-09-19 00:09:24,684 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 00:09:23 CST 2018]; root of context hierarchy
+2018-09-19 00:09:24,688 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-09-19 13:42:29,439 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-09-19 13:42:29,620 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-09-19 13:42:29,650 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-09-19 13:42:29,667 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 13:42:29 CST 2018]; root of context hierarchy
+2018-09-19 13:42:30,361 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-09-19 13:42:30,583 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 13:42:29 CST 2018]; root of context hierarchy
+2018-09-19 13:42:30,586 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-09-19 13:44:01,840 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-09-19 13:44:02,016 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-09-19 13:44:02,044 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-09-19 13:44:02,062 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 13:44:02 CST 2018]; root of context hierarchy
+2018-09-19 13:44:02,744 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-09-19 13:44:02,979 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 13:44:02 CST 2018]; root of context hierarchy
+2018-09-19 13:44:03,015 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-09-19 13:44:21,343 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-09-19 13:44:21,527 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-09-19 13:44:21,557 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-09-19 13:44:21,573 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 13:44:21 CST 2018]; root of context hierarchy
+2018-09-19 13:44:22,238 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-09-19 13:44:22,489 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 13:44:21 CST 2018]; root of context hierarchy
+2018-09-19 13:44:22,495 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-09-19 13:45:06,441 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-09-19 13:45:06,627 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-09-19 13:45:06,654 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-09-19 13:45:06,668 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 13:45:06 CST 2018]; root of context hierarchy
+2018-09-19 13:45:07,373 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-09-19 13:45:07,657 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 13:45:06 CST 2018]; root of context hierarchy
+2018-09-19 13:45:07,662 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-09-19 13:46:13,857 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-09-19 13:46:14,029 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-09-19 13:46:14,062 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-09-19 13:46:14,079 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 13:46:14 CST 2018]; root of context hierarchy
+2018-09-19 13:46:14,789 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-09-19 13:46:15,000 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 13:46:14 CST 2018]; root of context hierarchy
+2018-09-19 13:46:15,004 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-09-19 13:46:29,022 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-09-19 13:46:29,198 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-09-19 13:46:29,227 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-09-19 13:46:29,245 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 13:46:29 CST 2018]; root of context hierarchy
+2018-09-19 13:46:29,911 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-09-19 13:46:30,161 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 13:46:29 CST 2018]; root of context hierarchy
+2018-09-19 13:46:30,164 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-09-19 13:47:32,507 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-09-19 13:47:32,681 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-09-19 13:47:32,715 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-09-19 13:47:32,733 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 13:47:32 CST 2018]; root of context hierarchy
+2018-09-19 13:47:33,458 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-09-19 13:47:33,748 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 13:47:32 CST 2018]; root of context hierarchy
+2018-09-19 13:47:33,753 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-09-19 13:48:04,029 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-09-19 13:48:04,201 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-09-19 13:48:04,233 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-09-19 13:48:04,252 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 13:48:04 CST 2018]; root of context hierarchy
+2018-09-19 13:48:04,940 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-09-19 13:48:05,179 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 13:48:04 CST 2018]; root of context hierarchy
+2018-09-19 13:48:05,218 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-09-19 13:49:02,374 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-09-19 13:49:02,559 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-09-19 13:49:02,592 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-09-19 13:49:02,608 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 13:49:02 CST 2018]; root of context hierarchy
+2018-09-19 13:49:03,313 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-09-19 13:49:03,595 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 13:49:02 CST 2018]; root of context hierarchy
+2018-09-19 13:49:03,599 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-09-19 13:49:26,783 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-09-19 13:49:26,956 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-09-19 13:49:26,985 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-09-19 13:49:27,004 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 13:49:27 CST 2018]; root of context hierarchy
+2018-09-19 13:49:27,740 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-09-19 13:49:28,007 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 13:49:27 CST 2018]; root of context hierarchy
+2018-09-19 13:49:28,011 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-09-19 13:49:53,477 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-09-19 13:49:53,653 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-09-19 13:49:53,680 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-09-19 13:49:53,699 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 13:49:53 CST 2018]; root of context hierarchy
+2018-09-19 13:49:54,398 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-09-19 13:49:54,625 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 13:49:53 CST 2018]; root of context hierarchy
+2018-09-19 13:49:54,629 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-09-19 14:45:44,438 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-09-19 14:45:44,637 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-09-19 14:45:44,669 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-09-19 14:45:44,683 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 14:45:44 CST 2018]; root of context hierarchy
+2018-09-19 14:45:45,417 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-09-19 14:45:45,674 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@337d0578: startup date [Wed Sep 19 14:45:44 CST 2018]; root of context hierarchy
+2018-09-19 14:45:45,713 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
