@@ -9,6 +9,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.util.List;
@@ -89,5 +90,15 @@ public class UserController {
         }
     }
 
+    /**
+     * 删除用户信息
+     */
+    @ResponseBody
+    @RequestMapping(value = "delete",method = RequestMethod.POST)
+    public BaseResult delete(String ids){
+        BaseResult baseResult = BaseResult.success();
+        System.out.println(ids);
+        return baseResult;
+    }
 
 }
