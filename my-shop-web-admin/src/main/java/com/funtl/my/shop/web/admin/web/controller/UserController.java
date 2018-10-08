@@ -3,6 +3,7 @@ package com.funtl.my.shop.web.admin.web.controller;
 import com.funtl.my.shop.commons.dto.BaseResult;
 import com.funtl.my.shop.domain.TbUser;
 import com.funtl.my.shop.web.admin.service.TbUserService;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -12,7 +13,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import javax.servlet.http.HttpServletRequest;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /*
  * @Author: two
@@ -54,6 +58,7 @@ public class UserController {
 
     /**
      * 搜索
+     *
      * @param tbUser
      * @param model
      */
@@ -94,11 +99,44 @@ public class UserController {
      * 删除用户信息
      */
     @ResponseBody
-    @RequestMapping(value = "delete",method = RequestMethod.POST)
-    public BaseResult delete(String ids){
-        BaseResult baseResult = BaseResult.success();
-        System.out.println(ids);
+    @RequestMapping(value = "delete", method = RequestMethod.POST)
+    public BaseResult delete(String ids) {
+        BaseResult baseResult = null;
+        if (StringUtils.isNotBlank(ids)) {
+            String[] idArray = ids.split(",");
+            tbUserService.deleteMulti(idArray);
+            baseResult = BaseResult.success("删除用户成功");
+        } else {
+            baseResult = BaseResult.fail("删除用户失败");
+        }
         return baseResult;
     }
 
+    /**
+     * 分页查询
+     */
+    @ResponseBody
+    @RequestMapping(value = "page", method = RequestMethod.GET)
+    public Map<String,Object> page(HttpServletRequest req) {
+        Map<String,Object> result = new HashMap<>();
+
+        String strDraw = req.getParameter("draw");
+        String strStart = req.getParameter("start");
+        String strLength = req.getParameter("length");
+
+        int draw = strDraw == null ? 0 : Integer.parseInt(strDraw);
+        int start = strStart == null ? 0 : Integer.parseInt(strStart);
+        int length = strLength == null ? 10 : Integer.parseInt(strLength);
+
+        //封装Dattables需要的结果
+        List<TbUser> tbUsers = tbUserService.page(start, length);
+        int count = tbUserService.count();
+        result.put("draw",draw);
+        result.put("recordsTotal",count);
+        result.put("recordsFiltered",count);
+        result.put("data",tbUsers);
+        result.put("error","错误");
+
+        return result;
+    }
 }

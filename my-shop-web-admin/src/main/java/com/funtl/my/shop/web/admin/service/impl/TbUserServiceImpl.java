@@ -15,7 +15,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
 
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Service
 public class TbUserServiceImpl implements TbUserService {
@@ -87,6 +89,24 @@ public class TbUserServiceImpl implements TbUserService {
     @Override
     public List<TbUser> search(TbUser tbUser) {
         return tbUserDao.search(tbUser);
+    }
+
+    @Override
+    public void deleteMulti(String[] ids) {
+        tbUserDao.deleteMulti(ids);
+    }
+
+    @Override
+    public List<TbUser> page(int start, int length) {
+        Map<String,Object> params = new HashMap<>();
+        params.put("start",start);
+        params.put("length",length);
+        return tbUserDao.page(params);
+    }
+
+    @Override
+    public int count() {
+        return tbUserDao.count();
     }
     /*@Override
     public long selectMd5() {

@@ -17,4 +17,7 @@ public interface TbUserService {
     TbUser login(String email,String password);
 //    long selectMd5();
     List<TbUser> search(TbUser tbUser);
+    void deleteMulti(String[] ids);
+    List<TbUser> page(int start,int length);
+    int count();
 }

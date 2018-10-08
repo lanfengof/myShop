@@ -7,6 +7,7 @@ import com.funtl.my.shop.domain.TbUser;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Map;
 
 @Repository
 public interface TbUserDao {
@@ -57,4 +58,19 @@ public interface TbUserDao {
      * 搜索
      */
     List<TbUser> search(TbUser tbUser);
+
+    /**
+     * 批量删除
+     */
+    void deleteMulti(String[] ids);
+
+    /**
+     * 分页查询
+     */
+    List<TbUser> page(Map<String,Object> params);
+
+    /**
+     * 查询总记录数
+     */
+    int count();
 }
