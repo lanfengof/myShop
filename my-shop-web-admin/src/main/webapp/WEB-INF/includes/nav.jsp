@@ -28,7 +28,7 @@
                             <p>
                                 ${user.username} - Java Developer
                                 <small><fmt:formatDate value="${user.created}"
-                                                       pattern="yyyy-MM-dd HH:mm:ss"/></small>
+                                                       pattern="yyyy-MM-dd HH:mm:ss"></small>
                             </p>
                         </li>
 
